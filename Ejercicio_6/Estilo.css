@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+
+.bajo {
+  background-color: #000000a9;
+  color: #fffb00;
+}
+
+.normal {
+  background-color: #000000;
+  color: #2e7d32;
+}
+
+.sobrepeso {
+  background-color: #000000;
+  color: #ef6c00;
+}
+
+.obesidad {
+  background-color: #000000;
+  color: #c62828;
+}
+
+.error {
+  background-color: #000000;
+  color: #ff0303;
+}
